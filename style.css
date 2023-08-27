@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital@1&family=Roboto+Condensed:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    
+}
+ h1{
+    font-family: 'Labrada', serif;
+    /* text-align: center; */
+    font-size: 45px;
+}
+
+.container{
+    display: flex;
+
+}
+.sidebar {
+    background-color: rgb(218 207 207);
+    width: 230px;
+    height: 100vh; 
+    font-family: 'Labrada', serif;
+    /* font-family: monospace; */
+    position: sticky;
+
+}
+
+.sidebar nav{
+    padding: 30px;
+}
+
+.sidebar nav li{
+    font-size: 40px;
+    list-style: none;
+    padding: 20px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    /* font-family: 'Source Code Pro', monospace; */
+    font-family: 'Labrada', serif;
+    
+}
+.infocontainer{
+    background-color: rgb(241 235 239);
+    height: 60vh;
+    width: 80vw;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Labrada', serif;
+}
+.about{
+    font-size: 35px;
+}
+.moreabout{
+    font-size: 24px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+.buttons button{
+    color: white;
+    font-size: 18px;
+    padding: 9px;
+    border-radius: 18px;
+    margin: 0px 8px;
+    background-color: #9a9191;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: #9a9191;
+
+}
+.devpic img{
+    height: 60vh;
+
+}

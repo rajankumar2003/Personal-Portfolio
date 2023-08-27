@@ -1,0 +1,34 @@
+.skillcontainer {}
+
+.skillitem {}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: black;
+    border: 2px solid black;
+    /* z-index: -2; */
+}
+
+.t1 {
+    width: 265px;
+    background-color: red;
+
+}
+
+.t2 {
+    width: 125px;
+    background-color: pink;
+    /* z-index: 1; */
+}
+
+.t4 {
+    width: 75px;
+    background-color: yellowgreen;
+
+}
+
+.t5 {
+    width: 20px;
+    background-color: yellow;
+}

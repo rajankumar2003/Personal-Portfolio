@@ -1,0 +1,38 @@
+#service-container {
+    width: 1264px;
+    /* margin: 10px; */
+}
+
+#service {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    /* margin: 15px; */
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+#service .box {
+    flex-grow: 1;
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 28%;
+    margin: 20px 30px;
+    border-radius: 15px;
+    background-color: #fdf8f8;
+}
+
+#service .box img {
+    height: 250px;
+    border-radius: 20px;
+    width: 325px;
+    display: block;
+    margin: 10px auto;
+}
+
+#service .box p {
+    font-size: 23px;
+    font-family: 'Labrada', serif;
+
+}
